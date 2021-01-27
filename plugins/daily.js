@@ -1,11 +1,11 @@
 let handler = async (m, { conn }) => {
   if (new Date - global.DATABASE._data.users[m.sender].lastclaim > 86400000) {
-    conn.reply(m.chat, 'Selamat anda mendapatkan +500 XP', m)  
-    global.DATABASE._data.users[m.sender].exp += 500
+    conn.reply(m.chat, 'Selamat anda kena prank -500 XP wkwk.... Untuk mendapatkan exp bisa memakai command #math <mode>', m)  
+    global.DATABASE._data.users[m.sender].exp += -500
     global.DATABASE._data.users[m.sender].lastclaim = new Date * 1
   } else conn.reply(m.chat, 'Anda sudah mengklaim klaim harian  hari ini', m)
 }
-handler.help = ['daily', 'claim']
+handler.help = ['daily','claim']
 handler.tags = ['xp']
 handler.command = /^(daily|claim)$/i
 handler.owner = false
