@@ -1,4 +1,4 @@
-# 🔰 Wabot-aq 🔰
+# FajarBOTV5.5
 Simple WhatsApp Bot
 
 ### FOR TERMUX USER
@@ -8,11 +8,11 @@ Simple WhatsApp Bot
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/Abdi-Bot18/BotAbdi
-> cd BotAbdi
+> git clone https://github.com/Tersakiti404-cyber/FajarBOTV5.5
+> cd wabot-aq
 > npm install
 ```
-###### Run ♐
+###### Run
 ```bash
 > node . [<session name>] (session name is optional)
 ```
@@ -25,14 +25,11 @@ Simple WhatsApp Bot
 * Download And Install FFMPEG [`Click Here`](https://ffmpeg.org/download.html) (don't forget to path) 
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6) 
 ```bash
-> git clone https://github.com/Abdi-Bot18/BotAbdi
-> cd BotAbdi
+> git clone https://github.com/Tersakiti404-cyber/FajarBOTV5.5
+> cd wabot-aq
 > npm install
 ```
 ###### Run
 ```bash
 > node index.js
 ```
-
-# About 🖇️
-Youtube: Drawl Nag [`Link`](https://youtube.com/c/DrawlNag) <sosmed>
