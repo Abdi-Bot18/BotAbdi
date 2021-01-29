@@ -13,10 +13,10 @@ Untuk Githubnya..
 5) $git clone https://github.com/Abdi-Bot18/BotAbdi
 6) $ls
 7) $cd BotAbdi
+8) $sh install.sh
 
 yang *terakhirr*..
 Penginstalannya cuy :)
-8) npm i
 9) node index.js
 
 _Bisa kalian liat tutorialnya di_

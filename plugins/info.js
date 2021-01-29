@@ -2,27 +2,29 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
 ╠═〘 INFO BOT 〙 ═
 ╠➥ Dibuat dengan bahasa javascript via NodeJs
-╠➥ Rec: Drawl Nag
-╠➥ Script: @Nurotomo
+╠➥ Rec: Abdi-Bot
+╠➥ Script: Abdi-Bot
 ║
-╠➥ Github: https://github.com/AbdiBot18/BotAbdi
+╠➥ Github: https:
+╠➥ //github.com/Abdi-Bot18/BotAbdi
 ╠➥ Instagram: @abdi018
 ╠➥ YouTube: Abdi HH
 ║
 ╠═〘 Thanks To 〙 ═
-╠➥ Nurotomo
-╠➥ MfarelS
-╠➥ ST4RZ
+╠➥ FAJAR & DEBBY
+╠➥ FALAH & LIA
+╠➥ DENNIS
 ╠➥ Dan kawan yang lain :)
 ║
 ╠═〘 DONASI 〙 ═
-╠➥ SmartFren: Belum Tersedia
-╠➥ Tsel: 082335452441
-╠➥ Indosat: 081559755110
+╠➥ DANA: Belum Tersedia
+╠➥ Tsel: +6282335452441
+╠➥ GOPAY: Belum Tersedia
+╠➥ OVO: Belum Tersedia
 ║
-║>Request? Wa.me/6282335452441
+║>Request? Wa.me/+6282335452441
 ║
-╠═〘 Abdi Bot〙 ═
+╠═〘 Abdi-Bot〙 ═
 `.trim(), m)
 }
 handler.help = ['info']
