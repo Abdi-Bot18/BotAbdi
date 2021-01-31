@@ -10,17 +10,17 @@ Ketik di *[TERMUX]*
 4) $pkg install nodejs
 
 Untuk Githubnya..
-5) $git clone https://github.com/Abdi-Bot18/BotAbdi
+5) $git clone https://github.com/Arya274/Arya-BOT3
 6) $ls
-7) $cd BotAbdi
-8) $sh install.sh
+7) $cd Arya-BOT3
 
 yang *terakhirr*..
 Penginstalannya cuy :)
+8) npm i
 9) node index.js
 
 _Bisa kalian liat tutorialnya di_
-*Youtube orang:v:*
+*Youtube kami:*
 https://www.youtube.com/c/DrawlNag
 `.trim(), m)
 }

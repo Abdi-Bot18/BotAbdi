@@ -1,30 +1,30 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-╠═〘 INFO BOT 〙 ═
-╠➥ Dibuat dengan bahasa javascript via NodeJs
-╠➥ Rec: Abdi-Bot
-╠➥ Script: Abdi-Bot
-║
-╠➥ Github: https:
-╠➥ //github.com/Abdi-Bot18/BotAbdi
-╠➥ Instagram: @abdi018
-╠➥ YouTube: Abdi HH
-║
-╠═〘 Thanks To 〙 ═
-╠➥ FAJAR & DEBBY
-╠➥ FALAH & LIA
-╠➥ DENNIS
-╠➥ Dan kawan yang lain :)
-║
+⚠️ *INFO BOT* ⚠️
+Dibuat dengan javascript via NodeJs,Ffmpeg,dan ImageMagick
+
+Rec: Abdi-Bot
+Script: @Nurotomo
+Github: 
+https://github.com/Arya274/Arya-BOT3
+
+*Sosmed :*
+Kritik kami di sosmed ataupun YouTube.
+Instagram: @abdi018
+➥ YouTube: abdi HH
+
+*Thanks To :*
+Nurotomo
+MfarelS
+ST4RZ
+Dan kawan yang lain :)
+
 ╠═〘 DONASI 〙 ═
-╠➥ DANA: Belum Tersedia
-╠➥ Tsel: +6282335452441
-╠➥ GOPAY: Belum Tersedia
-╠➥ OVO: Belum Tersedia
-║
-║>Request? Wa.me/+6282335452441
-║
-╠═〘 Abdi-Bot〙 ═
+╠➥ SmartFren: Belum Tersedia
+╠➥ Tsel: 082335452441
+╠➥ Indosat: Belum Tersedia
+║>Request? Wa.me/6281357302007
+╠═〘 INFO BOT 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']
