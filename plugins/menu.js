@@ -81,6 +81,32 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿ https://github.com/Arya274/Arya-BOT3
 ╿ Youtube : Abdi HH
 ╿ Instagram : @abdi018
+╿Grup Abdi-Bot:
+╿https://chat.whatsapp.com/KlPJ4MsI9F46aWW5If50gp
+╰═══════════════
+
+╭════•›「 Membuat Bot 」
+╿ {Ketik Di Termux}
+╿ [Penginstallan]
+╿ $pkg install git -y
+╿ $pkg install ffmpeg -y
+╿ $pkg install imagemagick -y
+╿ $pkg install nodejs -y
+╿ $git clone https://github.com/Abdi-Bot18/BotAbdi
+╿ [Pemasangan Bot/Terakhir Yang Harus Di Ketik]
+╿ $cd BotAbdi
+╿ $npm i
+╿ $node index. js
+╿ [Jika muncul kode qr, scan melalui whatsapp web]
+╿ [Cara scan]
+╿ 1. Ambil 2 Hp
+╿ 2. Buka whatsapp yang mau di jadikan bot.. 
+╿ 3. Klik titik tiga di pojok kanan atas.. 
+╿ 4. Klik Whatsapp web
+╿ 5. Arahkan kamera ke kode QR
+╿ 6. Jika kamu tadi membuka termuxnya di hp yang mau di jadikan bot... ambil hp satunya untuk memotret kode QRnya lalu scan!!
+╿ [Perhatian]
+╿ *huruf {$} tidak di ketik di termuxnya!!*
 ╰═══════════════
 
 ╭════•›「 Rules 」
