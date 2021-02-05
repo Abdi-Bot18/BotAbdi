@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
 Tutorial Buat Bot WA:
-Credit: *~Drawl Nag*
+Credit: *~Abdi-Bot*
 
 Ketik di *[TERMUX]*
 1) $pkg install git
@@ -10,9 +10,9 @@ Ketik di *[TERMUX]*
 4) $pkg install nodejs
 
 Untuk Githubnya..
-5) $git clone https://github.com/Arya274/Arya-BOT3
+5) $git clone https://github.com/Abdi-Bot18-BotAbdi
 6) $ls
-7) $cd Arya-BOT3
+7) $cd BotAbdi
 
 yang *terakhirr*..
 Penginstalannya cuy :)
