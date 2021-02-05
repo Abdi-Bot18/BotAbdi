@@ -1,4 +1,4 @@
-# Drawl Nag
+# Abdi-Bot18
 Simple WhatsApp Bot
 
 ### FOR TERMUX USER
@@ -34,5 +34,5 @@ Simple WhatsApp Bot
 > node index.js
 ```
 
-# Recode: @arpunchs
-Bye: @Nurutomo
+# Recode: @abdi018
+Bye: @abdi018
