@@ -3,12 +3,12 @@ let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 const CFonts  = require('cfonts')
-CFonts.say('TERMUX WHATSAPP BOT', {
+CFonts.say('BOT ABDI', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say('\'Youtube:\' Drawl Nag', {
+CFonts.say('\'Youtube:\' Abdi HH', {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
