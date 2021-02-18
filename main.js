@@ -16,9 +16,9 @@ let rl = Readline.createInterface(process.stdin, process.stdout)
 let WAConnection = simple.WAConnection(_WAConnection)
 
 
-global.owner = ['6281233433839@s.whatsapp.net','6282335452441@s.whatsapp.net'] // Put your number here
-global.mods = ['6281233433839@s.whatsapp.net','6282335452441@s.whatsapp.net'] // Want some help?
-global.prems = ['6281233433839@s.whatsapp.net','6282335452441@s.whatsapp.net'] // Premium user has unlimited limit
+global.owner = ['6281233433839','6282335452441'] // Put your number here
+global.mods = ['6281233433839','6282335452441'] // Want some help?
+global.prems = ['6281233433839','6282335452441'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -173,7 +173,7 @@ conn.handler = async function (m) {
           fail('mods', m, this)
           continue
         }
-        if (plugin.premium && !isprems) { // Premium
+        if (plugin.premium && !isPrems) { // Premium
           fail('premium', m, this)
           continue
         }
