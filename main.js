@@ -16,9 +16,9 @@ let rl = Readline.createInterface(process.stdin, process.stdout)
 let WAConnection = simple.WAConnection(_WAConnection)
 
 
-global.owner = ['081233433839','082335452441'] // Put your number here
-global.mods = ['081233433839','082335452441'] // Want some help?
-global.prems = ['081233433839','082335452441'] // Premium user has unlimited limit
+global.owner = ['6281233433839','6282335452441'] // Put your number here
+global.mods = ['6281233433839','6282335452441'] // Want some help?
+global.prems = ['6281233433839','6282335452441'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
