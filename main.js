@@ -173,7 +173,7 @@ conn.handler = async function (m) {
           fail('mods', m, this)
           continue
         }
-        if (plugin.premium && !isPrems) { // Premium
+        if (plugin.premium && !isprems) { // Premium
           fail('premium', m, this)
           continue
         }
