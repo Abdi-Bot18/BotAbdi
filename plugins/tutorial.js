@@ -10,7 +10,7 @@ Ketik di *[TERMUX]*
 4) $pkg install nodejs
 
 Untuk Githubnya..
-5) $git clone https://github.com/Abdi-Bot18-BotAbdi
+5) $git clone https://github.com/Abdi-Bot18/BotAbdi
 6) $ls
 7) $cd BotAbdi
 

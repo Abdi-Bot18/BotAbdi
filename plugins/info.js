@@ -3,15 +3,15 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ⚠️ *INFO BOT* ⚠️
 Dibuat dengan javascript via NodeJs,Ffmpeg,dan ImageMagick
 
-Rec: Abdi-Bot
+Rec: Abdi-Bot18
 Script: @Nurotomo
 Github: 
-https://github.com/Arya274/Arya-BOT3
+https://github.com/Abdi-Bot18/BotAbdi
 
 *Sosmed :*
 Kritik kami di sosmed ataupun YouTube.
 Instagram: @abdi018
-➥ YouTube: abdi HH
+➥ YouTube: Abdi HH
 
 *Thanks To :*
 Nurotomo
@@ -21,7 +21,7 @@ Dan kawan yang lain :)
 
 ╠═〘 DONASI 〙 ═
 ╠➥ SmartFren: Belum Tersedia
-╠➥ Tsel: 082335452441
+╠➥ Tsel: 0812-3343-3839
 ╠➥ Indosat: Belum Tersedia
 ║>Request? Wa.me/6281357302007
 ╠═〘 INFO BOT 〙 ═

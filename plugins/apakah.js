@@ -1,13 +1,13 @@
 let handler = async (m, { conn, text }) => {
   conn.reply(m.chat, `
 *Pertanyaan:* ${m.text}
-*Jawaban:* ${pickRandom(['Ya','Ga, Lu jelek','maap males jawab:v','Mungkin','Ya*(terpaksa:( )*','Tidak','Tidak mungkin'])}
+*Jawaban:* ${pickRandom(['Ya','Mungkin iya','Mungkin','Mungkin tidak','Tidak','Tidak mungkin'])}
 `.trim(), m)
 }
 handler.help = ['apakah <teks>?']
 handler.tags = ['kerang']
 handler.customPrefix = /(\?$)/
-handler.command = /^apakah/i
+handler.command = /^apakah$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
@@ -18,6 +18,7 @@ handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
+handler.limit = true
 
 module.exports = handler
 
