@@ -45,6 +45,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       'internet': 'Internet',
       'downloader': 'Downloader',
       'tools': 'Tools',
+      'jadibot': 'Jadi Bot', 
       'fun': 'Fun',
       'owner': 'Owner',
       'host': 'Host',
