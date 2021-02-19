@@ -72,7 +72,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-╭════•›「 ${conn.getName(conn.user.jid)} 」
+*╭════•›「 ${conn.getName(conn.user.jid)} 」
 ╿  Hai, %name !
 ╿ Total : *%exp XP*
 ╿ Tersisa : *%limit Limit*
@@ -96,7 +96,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿• Spam = BLOKIR
 ╿• Ingin Donasi ?
 ╿    => Hubungi #creator
-╰═══════════════
+╰═══════════════*
 
 %readmore`
     let header = conn.menu.header || '╭════•›◜ %category ◞'
