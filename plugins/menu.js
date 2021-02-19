@@ -47,6 +47,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       'tools': 'Tools',
       'fun': 'Fun',
       'owner': 'Owner',
+      'prems': 'Premium'
       'host': 'Host',
       'advanced': 'Advanced',
       '': 'No Category',
@@ -133,7 +134,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 }
 handler.help = ['menu','help','?']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(menu|help|\?)$
 handler.owner = false
 handler.mods = false
 handler.premium = false
