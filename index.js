@@ -12,7 +12,7 @@ CFonts.say('abdi-Bot\nWhatsApp Bot', {
 CFonts.say(`'BotAbdi' By @abdi018`, {
   font: 'console',
   align: 'center',
-  gradient: ['magenta', 'orange']
+  gradient: ['magenta', 'blue']
 })
 
 function start(file) {
