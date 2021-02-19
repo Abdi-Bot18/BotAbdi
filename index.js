@@ -9,10 +9,10 @@ CFonts.say('abdi-Bot\nWhatsApp Bot', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`'BotAbdi' By @${package.author.name || package.author}`, {
+CFonts.say(`'BotAbdi' By @abdi018`, {
   font: 'console',
   align: 'center',
-  gradient: ['red', 'white']
+  gradient: ['magenta', 'orange']
 })
 
 function start(file) {
