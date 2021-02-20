@@ -46,8 +46,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       'downloader': 'Downloader',
       'tools': 'Tools',
       'fun': 'Fun',
+      'jadibot': 'Jadi Bot',
       'owner': 'Owner',
-      'prems': 'Premium'
       'host': 'Host',
       'advanced': 'Advanced',
       '': 'No Category',
@@ -87,9 +87,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 
 ╭════•›「 Sosmed 」
 ╿ Github :
-╿ https://github.com/Abdi-Bot18/BotAbdi
-╿ Youtube : Abdi HH
-╿ Instagram : @abdi018
+╿ https://github.com/Arya274/Arya-BOT3
+╿ Youtube : Drawl Nag
+╿ Instagram : @arpunchs
 ╰═══════════════
 
 ╭════•›「 Rules 」
@@ -134,7 +134,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 }
 handler.help = ['menu','help','?']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$
+handler.command = /^(menu|help|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
