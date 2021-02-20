@@ -46,6 +46,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       'downloader': 'Downloader',
       'tools': 'Tools',
       'fun': 'Fun',
+      'jadibot': 'Jadi Bot',
       'owner': 'Owner',
       'host': 'Host',
       'advanced': 'Advanced',
@@ -86,9 +87,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 
 ╭════•›「 Sosmed 」
 ╿ Github :
-╿ https://github.com/Abdi-Bot18/BotAbdi
-╿ Youtube : Abdi HH
-╿ Instagram : @abdi018
+╿ https://github.com/Arya274/Arya-BOT3
+╿ Youtube : Drawl Nag
+╿ Instagram : @arpunchs
 ╰═══════════════
 
 ╭════•›「 Rules 」
@@ -102,7 +103,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let header = conn.menu.header || '╔════•›「 %category 」'
     let body   = conn.menu.body   || ' ║⊱ %cmd%islimit'
     let footer = conn.menu.footer || '╚══════════\n'
-    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered bye\n Abdi-Bot18
+    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered bye\nBOT NFQ: ${global.conn.user.jid.split`@`[0]}`) + `\n*%npmname@^%version*\n\`\`\`\%npmdesc\`\`\``
     let _text  = before + '\n'
     for (let tag in groups) {
       _text += header.replace(/%category/g, tags[tag]) + '\n'
