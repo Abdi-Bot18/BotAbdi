@@ -83,14 +83,14 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿ Lama Aktif : *%uptime*
 ╿ Database : %totalreg Nomor
 ╰═══════════════
-%readmore
+
 ╭════•›「 Sosmed 」
 ╿ Github :
 ╿ https://github.com/Abdi-Bot18/BotAbdi
 ╿ Youtube : Abdi HH
 ╿ Instagram : @abdi018
 ╰═══════════════
-%readmore
+
 ╭════•›「 Rules 」
 ╿• Telpon/VC = BAN/BLOKIR
 ╿• Spam = BLOKIR
@@ -99,9 +99,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╰═══════════════
 
 %readmore`
-    let header = conn.menu.header || '╒════•›「 %category 」'
-    let body   = conn.menu.body   || ' │⊱ %cmd%islimit'
-    let footer = conn.menu.footer || '╘══════════\n'
+    let header = conn.menu.header || '╔════•›「 %category 」'
+    let body   = conn.menu.body   || ' ║⊱ %cmd%islimit'
+    let footer = conn.menu.footer || '╚══════════\n'
     let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered bye\n Abdi-Bot18
     let _text  = before + '\n'
     for (let tag in groups) {
