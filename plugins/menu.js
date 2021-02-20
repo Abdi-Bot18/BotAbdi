@@ -84,14 +84,14 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿ Lama Aktif : *%uptime*
 ╿ Database : %totalreg Nomor
 ╰═══════════════
-
+%readmore`
 ╭════•›「 Sosmed 」
 ╿ Github :
-╿ https://github.com/Arya274/Arya-BOT3
-╿ Youtube : Drawl Nag
-╿ Instagram : @arpunchs
+╿ https://github.com/Abdi-Bot18/BotAbdi
+╿ Youtube : Abdi HH
+╿ Instagram : @abdi018
 ╰═══════════════
-
+%readmore`
 ╭════•›「 Rules 」
 ╿• Telpon/VC = BAN/BLOKIR
 ╿• Spam = BLOKIR
@@ -132,7 +132,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     throw e
   }
 }
-handler.help = ['menu','help','?']
+handler.help = ['menu','help']
 handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
 handler.owner = false
