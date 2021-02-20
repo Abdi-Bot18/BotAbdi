@@ -84,14 +84,14 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿ Lama Aktif : *%uptime*
 ╿ Database : %totalreg Nomor
 ╰═══════════════
-%readmore`
+
 ╭════•›「 Sosmed 」
 ╿ Github :
-╿ https://github.com/Abdi-Bot18/BotAbdi
-╿ Youtube : Abdi HH
-╿ Instagram : @abdi018
+╿ https://github.com/Arya274/Arya-BOT3
+╿ Youtube : Drawl Nag
+╿ Instagram : @arpunchs
 ╰═══════════════
-%readmore`
+
 ╭════•›「 Rules 」
 ╿• Telpon/VC = BAN/BLOKIR
 ╿• Spam = BLOKIR
