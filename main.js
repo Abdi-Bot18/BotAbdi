@@ -16,9 +16,9 @@ let rl = Readline.createInterface(process.stdin, process.stdout)
 let WAConnection = simple.WAConnection(_WAConnection)
 
 
-global.owner = ['6281233433839@s.whatsapp.net','6282335452441@s.whatsapp.net'] // Put your number here
-global.mods = ['6281233433839@s.whatsapp.net','6282335452441@s.whatsapp.net'] // Want some help?
-global.prems = ['6281233433839@s.whatsapp.net','6282335452441@s.whatsapp.net'] // Premium user has unlimited limit
+global.owner = ['6282335452441','6281233433839'] // Put your number here
+global.mods = ['6282335452441','6281233433839'] // Want some help?
+global.prems = ['6282335452441','6281233433839'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -71,7 +71,7 @@ if (!opts['test']) setInterval(() => {
   if (JSON.stringify(global.DATABASE.data) == lastJSON) conn.logger.info('Database is up to date')
   else {
     global.DATABASE.save()
-    conn.logger.info('Done saving database,YouTube: Abdi HH')
+    conn.logger.info('Done saving database,Subscribe: Drawl Nag!')
     lastJSON = JSON.stringify(global.DATABASE.data)
   }
 }, 60 * 1000) // Save every minute
@@ -80,8 +80,8 @@ const isNumber = x => typeof x === 'number' && !isNaN(x)
 conn.handler = async function (m) {
   try {
   	simple.smsg(this, m)
-    m.exp = 2
-    m.limit = false
+    m.exp = 0
+    m.limit = true
     try {
       let user
       if (user = global.DATABASE._data.users[m.sender]) {
@@ -120,7 +120,7 @@ conn.handler = async function (m) {
   	for (let name in global.plugins) {
   	  let plugin = global.plugins[name]
       if (!plugin) continue
-      if (plugin.tags && plugin.tags.includes('admin')) continue
+      if (!opts['restrict']) if (plugin.tags && plugin.tags.includes('admin')) continue
       let _prefix = plugin.customPrefix ? plugin.customPrefix : conn.prefix ? conn.prefix : global.prefix
   	  if ((usedPrefix = (_prefix.exec(m.text) || '')[0])) {
         let noPrefix = m.text.replace(usedPrefix, '')
@@ -151,8 +151,8 @@ conn.handler = async function (m) {
         let participants = m.isGroup ? groupMetadata.participants : []
         let user = m.isGroup ? participants.find(u => u.jid == m.sender) : {} // User Data
         let bot = m.isGroup ? participants.find(u => u.jid == this.user.jid) : {} // Your Data
-        let isAdmin = user.isAdmin || user.isSuperAdmin || true // Is User Admin?
-        let isBotAdmin = bot.isAdmin || bot.isSuperAdmin || true // Are you Admin?
+        let isAdmin = user.isAdmin || user.isSuperAdmin || false // Is User Admin?
+        let isBotAdmin = bot.isAdmin || bot.isSuperAdmin || false // Are you Admin?
         if (m.chat in global.DATABASE._data.chats) {
           let chat = global.DATABASE._data.chats[m.chat]
           if (name != 'unbanchat.js' && chat && chat.isBanned) return // Except this
@@ -173,7 +173,7 @@ conn.handler = async function (m) {
           fail('mods', m, this)
           continue
         }
-        if (plugin.premium && !isprems) { // Premium
+        if (plugin.premium && !isPrems) { // Premium
           fail('premium', m, this)
           continue
         }
@@ -224,7 +224,7 @@ conn.handler = async function (m) {
           console.log(e)
           if (e) m.reply(util.format(e))
         } finally {
-          if (m.limit) m.reply(+ m.limit + ' Limit terpakai, Mangkane ojok nyepam')
+          if (m.limit) m.reply(+ m.limit + ' Limit terpakai, Mangkane ojok nyepam. Isok ae" boros paketan hehe')
         }
   			break
   		}
@@ -269,8 +269,8 @@ conn.handler = async function (m) {
     }
   }
 }
-conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject\n\nJika sudah bantu follow kami..\nDi *Instagram:* @abdi018\nDan Youtube: *Abdi HH*'
-conn.bye = 'Selamat tinggal @user! mau dikubur dimana? '
+conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject'
+conn.bye = 'Selamat tinggal @user!'
 conn.onAdd = async function ({ m, participants }) {
   let chat = global.DATABASE._data.chats[m.key.remoteJid]
   if (!chat.welcome) return
@@ -348,10 +348,10 @@ conn.on('close', () => {
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!*_',
+    rowner: 'Perintag ini hanya dapat digunakan oleh _*OWNER NFQ !*_',
     owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-    premium: 'Perintah ini hanya dapat digunakan oleh user_*Premium!*_',
+    premium: 'Perintah ini hanya untuk member _*Premium*_ !',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: 'Perintah ini hanya untuk *Admin* grup!',
