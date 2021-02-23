@@ -21,7 +21,7 @@ Dan kawan yang lain :)
 
 ╠═〘 DONASI 〙 ═
 ╠➥ SmartFren: Belum Tersedia
-╠➥ Tsel: 0812-3343-3839
+╠➥ Tsel: 081233433839
 ╠➥ Indosat: Belum Tersedia
 ║>Request? Wa.me/6281357302007
 ╠═〘 INFO BOT 〙 ═
